@@ -1,0 +1,126 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*cabecalho*/
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    height: 99px;
+    width: 100%;
+}
+
+
+.nome a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+#azul {
+    background-color: #F28705;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/*corpo da pagina*/
+section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+section div {
+    min-width: 300px;
+    color: red;
+}
+
+section div p {
+    color: white;
+    font-size: x-large;
+    
+}
+
+.descrição {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.personagem img{
+    margin-top: 40px;
+}
+/*scroll*/
+main {
+    height: 10vh;
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(to bottom, #1e90ff 0%, #6ec6ff 60%, #bfe9ff 100%);  
+}
+
+.scrol_personagens {
+    height: 100%;
+    width: 200px;
+    text-align: center;
+}
+
+main img {
+    transition: transform 0.3s ease;
+}
+
+main img:hover {
+    transform: scale(1.2);
+}
+/*rodape*/
+.criadores {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    background-image: url(./img/chao.jpeg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+/* Fundos */
+.fundo-goku {
+    background: radial-gradient(circle at 30% 40%, #ff7a00 0%, #ff3c00 45%, #b31200 100%);
+  }
+.fundo-android16 {
+  background: radial-gradient(circle at 30% 40%, #6ddc6d 0%, #2e8b57 45%, #0f3d26 100%);
+}
+.fundo-vegeta {
+  background: radial-gradient(circle at 30% 40%, #4db8ff 0%, #007bff 45%, #001f66 100%);
+}
+.fundo-boo {
+  background: radial-gradient(circle at 30% 40%, #ff9acb 0%, #ff4da6 45%, #b30059 100%);
+}
+.fundo-bills {
+  background: radial-gradient(circle at 30% 40%, #b46cff 0%, #7a2cff 45%, #3d007a 100%);
+}
+.fundo-piccolo {
+  background: radial-gradient(circle at 30% 40%, #3bbf5e 0%, #137a2f 45%, #052e12 100%);
+}
+.fundo-tenshinhan {
+  background: radial-gradient(circle at 30% 40%, #ffe866 0%, #ffc400 45%, #a67c00 100%);
+}

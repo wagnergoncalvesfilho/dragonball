@@ -1,0 +1,111 @@
+body {
+    height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*cabecalho*/
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    height: 99px;
+    width: 100%;
+}
+
+.nome a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+#vermelhor {
+    background-color: #F28705;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+/*corpo da pagina*/
+label {
+    font-size: 24px;
+    /*color: white;*/
+}
+
+/*divisões*/
+.container {
+    margin: 0px;
+    background: radial-gradient(circle at 30% 40%, #ff4d4d 0%, #cc0000 45%, #5c0000 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 76vh;
+}
+
+form {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+}
+/*botões*/
+input {
+    margin-bottom: 20px;
+}
+
+#iemal {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#icomentario {
+    width: 100%;
+    height: 40px;
+
+}
+
+#inome {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#botão {
+    padding: 15px;
+    background-color: green;
+    min-width: 10%;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/*rodape*/
+.criadores {
+    height: 80px;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
